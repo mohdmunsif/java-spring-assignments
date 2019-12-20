@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94edd0fc-6ab9-414b-a2b6-5d5aec23e7ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application_ja_JP.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages_ja_JP.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application_zh_HK.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application_zh_HK.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages_zh_HK.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages_zh_HK.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jspx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jspx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Uw37PgMFqV7UU9Wz9ZytibxDmy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-mvc-webapp-1" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\munsi\Google Drive\Harvard\Extension School\CSCI E-57 (15354) Fall 2019\codes\Assignment3all\spring-mvc-webapp-2\src\main\webapp\WEB-INF\i18n" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94edd0fc-6ab9-414b-a2b6-5d5aec23e7ff" name="Default Changelist" comment="" />
+      <created>1576253662890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576253662890</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576420349793">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="460" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1576420349793" />
+    <state x="581" y="185" key="FileChooserDialogImpl" timestamp="1576464284365">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="581" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1576464284365" />
+    <state x="0" y="10" key="SettingsEditor" timestamp="1576409695674">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="10" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1576409695674" />
+  </component>
+</project>

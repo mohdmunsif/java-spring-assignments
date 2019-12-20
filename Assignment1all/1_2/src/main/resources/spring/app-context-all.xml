@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--    <bean id="bookFrost" autowire="byType" class="my.Book" lazy-init="true"-->
+<!--          p:id="14" p:isbn="214745678" p:title="Frost Poetry" p:price="22.19" />-->
+
+<!--    <bean id="bookWhitman" autowire="setter" class="my.Book" lazy-init="true"-->
+<!--          p:id="15" p:isbn="214745666" p:title="Whitman Poetry" p:price="26.59" />-->
+
+<!--    <bean id="book" autowire="byName" class="my.Book" lazy-init="true"-->
+<!--          p:id="16" p:isbn="214745678" p:title="Shakespeare Poetrt" p:price="36.59" />-->
+
+<!--    <bean id="bookPushkin" autowire="constructor" class="my.Book" lazy-init="true"-->
+<!--          p:id="17" p:isbn="214745111" p:title="Pushkin Poetry" p:price="42.19" />-->
+
+    <bean id="book"  class="my.Book"  p:id="16" p:isbn="214745678" p:title="Shakespeare Poetry" p:price="36.59" />
+
+<!--    <bean id="bookPushkin" class="my.Book" lazy-init="true"-->
+<!--          p:id="17" p:isbn="214745111" p:title="Pushkin Poetry" p:price="42.19" />-->
+
+    <bean id="poetry" class="my.Category"  autowire="byName">
+
+    </bean>
+
+
+
+</beans>

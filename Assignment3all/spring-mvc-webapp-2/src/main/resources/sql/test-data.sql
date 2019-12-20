@@ -1,0 +1,12 @@
+insert into book (category_name, isbn, title, publisher, price) values ('Fantasy', '9781257703', 'The Croaking Violin', 'Random House', 45.12);
+insert into book (category_name, isbn, title, publisher, price) values ('Fiction', '0431816433', 'Soldier Of Fire', 'HarperCollins', 12.34);
+insert into book (category_name, isbn, title, publisher, price) values ('Fantasy', '1062663719', 'Gods And Warriors', 'Random House', 17.87);
+insert into book (category_name, isbn, title, publisher, price) values ('Drama', '1646541014', 'Gangsters And Heirs', 'HarperCollins', 34.17);
+insert into book (category_name, isbn, title, publisher, price) values ('Fantasy', '0637831192', 'Claw of Steel', 'Macmillan ', 21.45);
+insert into book (category_name, isbn, title, publisher, price) values ('Mystery', '0171325562', 'Crime of the Beheaded Mermaid', 'Random House', 33.11);
+insert into book (category_name, isbn, title, publisher, price) values ('Fantasy', '0113333666', 'Hairy Potter and the Barber', 'Macmillan ', 68.12);
+insert into book (category_name, isbn, title, publisher, price) values ('Fiction', '0173636771', 'Fare Thee Well', 'Macmillan ', 23.12);
+insert into book (category_name, isbn, title, publisher, price) values ('Drama', '175361445', 'Dangerous Thirst', 'HarperCollins ', 45.12);
+insert into book (category_name, isbn, title, publisher, price) values ('Mystery', '011456656', 'Dirty Heart', 'Random House ', 11.12);
+insert into book (category_name, isbn, title, publisher, price) values ('Drama', '156726445', 'Dangerous Thirst', 'HarperCollins ', 98.20);
+insert into book (category_name, isbn, title, publisher, price) values ('Drama', '172489445', 'Pulp (in Orange Juice) Fiction', 'Random House ', 56.13);

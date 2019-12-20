@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/util
+   		   http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<bean id="book1" class="xml.Book"
+		  p:id="1" p:isbn="0-6428-0096-0" p:title="Celebrated Great Exploits of the Minstrel: For Which He Was Burnt" p:price="23.55" />
+
+	<bean id="book2" class="xml.Book"
+		  p:id="2" p:isbn="0-6853-2334-X" p:title="Primary Understanding of Healing" p:price="32.11" />
+
+	<bean id="book3" class="xml.Book"
+		  p:id="3" p:isbn="0-7040-7092-8" p:title="Treatise on the Inhabitants of the Grave: A Natural Philosophy" p:price="45.21" />
+
+	<bean id="book4" class="xml.Book"
+		  p:id="4" p:isbn="0-5429-3414-0" p:title="My Tracks of the River: On the Road" p:price="65.12" />
+
+	<bean id="book5" class="xml.Book"
+		  p:id="1" p:isbn="0-7461-0117-1" p:title="The Rose of the Snow" p:price="23.55" />
+
+	<bean id="book6" class="xml.Book"
+		  p:id="2" p:isbn="0-8695-2120-9" p:title="The Wizards's Snow" p:price="32.11" />
+
+	<bean id="book7" class="xml.Book"
+		  p:id="3" p:isbn="0-7019-2258-3" p:title="Person of Secret" p:price="45.21" />
+
+	<bean id="book8" class="xml.Book"
+		  p:id="4" p:isbn="0-3106-9665-8" p:title="The Licking Angels" p:price="65.12" />
+
+
+	<bean id="novels" class="xml.Category">
+		<!-- java.util.List -->
+		<property name="id" value="2" />
+		<property name="name" value="Novels" />
+		<property name="booksList">
+			<list>
+				<ref bean="book1" />
+				<ref bean="book2" />
+				<ref bean="book3" />
+				<ref bean="book4" />
+			</list>
+		</property>
+	</bean>
+
+	<util:map id="poetryMap" map-class="java.util.HashMap" key-type="java.lang.String" value-type="xml.Book">
+		<entry key="key1" value-ref="book8" />
+		<entry key="key2" value-ref="book7"/>
+	</util:map>
+
+	<bean id="poetry" class="xml.Category">
+		<property name="booksMap" ref="poetryMap" />
+	</bean>
+
+
+	<bean id="java" class="xml.Category">
+		<property name="booksSet">
+			<set>
+				<ref bean="book8" />
+				<bean class="xml.Book" p:id="1" p:isbn="0-7461-0117-1" p:title="The Rose of the Snow" p:price="23.55" />
+			</set>
+		</property>
+	</bean>
+
+</beans>
