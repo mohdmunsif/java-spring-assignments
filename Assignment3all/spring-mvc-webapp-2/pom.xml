@@ -18,7 +18,7 @@
     <tiles.version>3.0.8</tiles.version>
     <hibernate.entitymanager.version>5.3.0.Beta1</hibernate.entitymanager.version>
     <hibernate.validator.version>6.0.17.Final</hibernate.validator.version>
-     <commons.io.version>2.6</commons.io.version> 
+     <commons.io.version>2.7</commons.io.version> 
     <commons.dbcp2.version>2.6.0</commons.dbcp2.version>
 	<maven.war.plugin.version>3.0.0</maven.war.plugin.version>
 	<tomcat8.maven.plugin.version>3.0-r1756463</tomcat8.maven.plugin.version>
