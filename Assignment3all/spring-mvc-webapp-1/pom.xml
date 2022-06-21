@@ -24,7 +24,7 @@
 	<tomcat8.maven.plugin.version>3.0-r1756463</tomcat8.maven.plugin.version>
 	<jaxb-api.version>2.1</jaxb-api.version>
 	<javassist.version>3.23.1-GA</javassist.version>
-	<mysql.client.version>8.0.16</mysql.client.version>
+	<mysql.client.version>8.0.28</mysql.client.version>
   </properties>
   
   <dependencies>
